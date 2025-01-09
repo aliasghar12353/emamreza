@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mopon Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Mopon Clone</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Brands</a>
+            <a href="#">Categories</a>
+            <a href="#">About Us</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-slider" id="heroSlider">
+            <div class="hero-slide slide-1">Welcome to Mopon Clone!</div>
+            <div class="hero-slide slide-2">Find the Best Discounts Here!</div>
+            <div class="hero-slide slide-3">Save More with Our Coupons!</div>
+        </div>
+        <div class="hero-buttons">
+            <button class="hero-button" onclick="prevSlide()">&lt;</button>
+            <button class="hero-button" onclick="nextSlide()">&gt;</button>
+        </div>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search for brands or coupons...">
+        <button>Search</button>
+    </div>
+
+    <div class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category" onclick="filterByCategory('Food')">Food</div>
+        <div class="category" onclick="filterByCategory('Clothing')">Clothing</div>
+        <div class="category" onclick="filterByCategory('Tech')">Tech</div>
+        <div class="category" onclick="filterByCategory('Beauty')">Beauty</div>
+    </div>
+
+    <div class="brands">
+        <div class="brand">
+            <img src="https://via.placeholder.com/100" alt="Brand 1">
+            <p>Brand 1</p>
+        </div>
+        <div class="brand">
+            <img src="https://via.placeholder.com/100" alt="Brand 2">
+            <p>Brand 2</p>
+        </div>
+        <div class="brand">
+            <img src="https://via.placeholder.com/100" alt="Brand 3">
+            <p>Brand 3</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mopon Clone. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
